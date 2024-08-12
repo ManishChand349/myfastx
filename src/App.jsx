@@ -11,7 +11,7 @@ import Testimonials from "./components/Testimonials"
 function App() {
  
   return (
-    <div >
+    <div className="2xl:max-w-[80%] mx-auto">
     <Header/>
     <Main/>
     <HowtoWorkSection/>

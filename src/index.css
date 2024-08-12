@@ -15,10 +15,10 @@
   }
   .splide__arrow--prev {
     top: 90%;
-    left: 24rem;
+    left: 23rem;
   }.splide__arrow--next {
     top: 90%;
-    left: 26rem;
+    left: 25rem;
   }
 
   .splide__pagination {
@@ -29,6 +29,15 @@
   padding: 5px 14px 5px 14px;
   border-radius: 10px;
   margin-left: 14px;
+  }
+  @media (max-width: 768px) {
+    .splide__arrow--prev {
+      top: 92%;
+      left: 28rem;
+    }.splide__arrow--next {
+      top: 92%;
+      left: 30rem;
+    }
   }
 
   @media (max-width: 576px) {
