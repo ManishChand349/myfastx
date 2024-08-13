@@ -1,3 +1,4 @@
+
 import Btn from "./components";
 
 function JoinUsSection() {
@@ -18,6 +19,7 @@ function JoinUsSection() {
       </p>
       <Btn title={"Register now for just Rs, 999!"} />
       </div>
+     
     </div>
   );
 }

@@ -1,4 +1,5 @@
 
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import HowtoWorkSection from "./components/HowtoWorkSection"
 import JoinUsSection from "./components/JoinUsSection"
@@ -11,13 +12,14 @@ import Testimonials from "./components/Testimonials"
 function App() {
  
   return (
-    <div className="2xl:max-w-[80%] mx-auto">
+    <div className="">
     <Header/>
     <Main/>
     <HowtoWorkSection/>
     <Testimonials/>
     <ReadyToSection/>
     <JoinUsSection/>
+    <Footer/>
    
     </div>
     
