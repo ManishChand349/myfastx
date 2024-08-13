@@ -3,7 +3,7 @@ import Btn, { BtnTwo } from "./components";
 
 function ReadyToSection() {
   return (
-    <div className="max-w-[80%] lg:max-w-[90%] mx-auto my-24 flex  ">
+    <div className="max-w-[80%] lg:max-w-[90%] mx-auto my-24 lg:flex  ">
       <div className="w-[50%] border-r">
         <BtnTwo
           heading={"React to Get Started?"}
@@ -36,7 +36,7 @@ function ReadyToSection() {
         </div>
       </div>
       <div className="w-[50%] mt-20">
-      <div className="ml-4">
+      <div className="pl-4">
 
       <BtnTwo
           heading={"Frequently Asked Questions"}

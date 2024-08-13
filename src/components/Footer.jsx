@@ -2,8 +2,8 @@ function Footer() {
   return (
     <div className="bg-[#18181A] py-10">
       <img src="./main-logo.png" className="pl-20" />
-      <div className="flex justify-around text-white">
-        <p className="w-[20%] text-sm">
+      <div className="text-center lg:flex justify-around text-white">
+        <p className=" lg:w-[20%] text-sm">
           MyFastX is a leading platform that provides hyper-local on-demand
           delivery solution for individuals and businesses wherther you need a
           delivery boy for your shop or to ship items within city, MyFastX is
