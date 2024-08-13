@@ -36,6 +36,13 @@ function ReadyToSection() {
         </div>
       </div>
       <div className="w-[50%] mt-20">
+      <div className="ml-4">
+
+      <BtnTwo
+          heading={"Frequently Asked Questions"}
+          title={"Got Questions? We’ve Got Answers!"}
+        />
+      </div>
         <AccordionMenu />
       </div>
     </div>

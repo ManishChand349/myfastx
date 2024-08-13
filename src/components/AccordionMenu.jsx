@@ -21,32 +21,37 @@ const AccordionMenu = () => {
         {/* <h1 className="title">Let's clear up some doubts  </h1> */}
         <div className="accordion-items">
           <AccordionItem
-            title="Do payments made by students go directly into the university account?"
+            title="What type of vehicles are eligible?"
             content="Yes, the payments are done directly to the university. Being an informational portal we are just responsible for helping you through your journey of selecting the right university. The fees and any payment related to your course is supposed to be paid to the university on their official website."
             isActive={currentlyActive === 1}
             onClick={() => handleAccordionClick(1)}
           />
           <AccordionItem
-            title="How is GoOnline College different from others ?"
-            content="We at GoOnline College are a one-stop solution for all who wish to pursue their higher education via online universities. We believe selecting the right university is the first step to achieving your career goals. This is why we :"
+            title="How do I  get paid ?"
+            content="for all who wish to pursue their higher education via online universities. We believe selecting the right university is the first step to achieving your career goals. This is why we :"
             isActive={currentlyActive === 2}
             onClick={() => handleAccordionClick(2)}
           />
           <AccordionItem
-            title="What are GoOnline College Advantages?"
+            title="What areas does MyFastX operate in?"
             content="Advance Webinars, Networking Sessions With Decision Makers, Live projects & sessions, Placement assistance."
             isActive={currentlyActive === 3}
             onClick={() => handleAccordionClick(3)}
           />
           <AccordionItem
-            title="Can there be errors on GoOnline College?"
+            title="What type of vehicles are eligible?"
             content="The eligibility criteria may differ from one university to another. Generally, the minimum eligibility criteria for a online BCA degree course is 45-55% marks in aggregate at 10+2 level (or equivalent) with Mathematics as a core subject."
             isActive={currentlyActive === 4}
             onClick={() => handleAccordionClick(4)}
           />
           <AccordionItem
-            title="Are there any fees/charges for GoOnline College Services?"
+            title="How do I get paid?"
             content="GoOnlineCollege Services are always free of cost as we get benefitted from your good placements. We get paid by HR’s of different companies 🙂 GoOnline College will never ask you to pay in cash or share your OTP, ATM PIN, card number, CVV, expiry date, UPI VPA/MPIN with anyone via message, call and email. We only promote payments on the respective universities/institutes’ websites."
+            isActive={currentlyActive === 5}
+            onClick={() => handleAccordionClick(5)}
+          /><AccordionItem
+            title="What areas does MyFastX operate in?"
+            content=" Services are always free of cost as we get benefitted from your good placements. We get paid by HR’s of different companies 🙂 GoOnline College will never ask you to pay in cash or share your OTP, ATM PIN, card number, CVV, expiry date, UPI VPA/MPIN with anyone via message, call and email. We only promote payments on the respective universities/institutes’ websites."
             isActive={currentlyActive === 5}
             onClick={() => handleAccordionClick(5)}
           />
